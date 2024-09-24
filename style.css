@@ -40,6 +40,7 @@ header ul {
     font-family: "Inria Sans", sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 
 main input {
@@ -69,6 +70,21 @@ main textarea {
     padding-left: 20px;
     font-size: 32px;
     padding-top: 10px;
+    max-width: 680px;
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 680px;
+}
+
+#contatus button {
+    height: 70px;
+    width: 200px;
+    background-color: #131A2B;
+    font-family: "Inria Sans", sans-serif;
+    color: white;
+    font-size: 32px;
+    border: none;
+    border-radius: 20px;
 }
 
 footer {
