@@ -15,18 +15,27 @@
         <ul>
             
             <li class="nav"><a href="#skills">Skills</a></li>
-            <li class="nav"><a href="#projetos">Projetos</a></li>
+            <li class="nav"><a href="#escuro3">Projetos</a></li>
             <li class="nav"><a href="#contatus">Contato</a></li>
         </ul>
+
+        <div class="trilho" id="trilho">
+            <div class="indicador"></div>
+          </div>
 
     </header>
     <main>
 
         <div id="inicio">
             <ul>
-                <li><img src="banner.png" alt=""></li>
+                <li>  <div id="container">
+                    <div id="box1"></div>
+                    <div id="box2"></div>
+                    <div id="box3"></div>
+                    <div id="box4"></div>
+                  </div></li>
                 <li><p>JOÃO VITOR PADILHA</p></li>
-                <li>Desenvolvedor Full Stack</li>
+                <li><h2><span class="titulo-principal">Desenvolvedor Full Stack</span></h2></li>
             </ul>
             
         </div>
@@ -36,42 +45,82 @@
             <h1>SKILLS</h1>
             <p id="algumashab">Algumas habilidades que possuo ou em desenvolvimento</p>
 
-        <div class="escuro">
+        <div class="escuro" id="escuro">
 
           <ul>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">HTML</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">MYSQL</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">HTML</p></div>
+            <div class="quadrado" id="quadrado1"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">HTML</p></div>
+            <div class="quadrado" id="quadrado2"><img width="190px" src="logo-google-256.png" alt=""><p class="nameskills">GOOGLE WS</p></div>
+            <div class="quadrado" id="quadrado3"><img width="190px" src="mysql-256.png" alt=""><p class="nameskills">MYSQL</p></div>
           </ul>   
 
           <ul>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">CSS</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">HARDWARES</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">C#</p></div>
+            <div class="quadrado" id="quadrado4"><img width="190px" src="logo-css-3-256.png" alt=""><p class="nameskills">CSS</p></div>
+            <div class="quadrado" id="quadrado5"><img width="190px" src="logo-intel-256.png" alt=""><p class="nameskills">HARDWARES</p></div>
+            <div class="quadrado" id="quadrado6"><img width="170px" src="c-sharp-c-icon-1822x2048-wuf3ijab.png" alt=""><p class="nameskills">C#</p></div>
           </ul> 
 
           <ul>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">JAVASCRIPT</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">HTML</p></div>
-            <div class="quadrado"><img width="190px" src="logo-html-5-256.png" alt=""><p class="nameskills">PYTHON</p></div>
+            <div class="quadrado" id="quadrado7"><img width="190px" src="logo-javascript-icon-256.png" alt=""><p class="nameskills">JAVASCRIPT</p></div>
+            <div class="quadrado" id="quadrado8"><img width="190px" src="logo-windows-11-icon-256.png" alt=""><p class="nameskills">WINDOWS</p></div>
+            <div class="quadrado" id="quadrado9"><img width="190px" src="logo-python-256.png" alt=""><p class="nameskills">PYTHON</p></div>
           </ul> 
 
         </div>
 
         </div>
 
+        <div class="barreira"></div>
+        <div id="sobremim">
+            <h1>SOBRE MIM</h1>
+            <div id="fundofalso">
+            <div id="escuro2">
+                <div id="minhafoto">
+            <img src="foto site.jpg" alt="FOTO">
+          </div>
+            <div id="textosobremim">
+  Me chamo João Vitor, tenho 16 anos e estou cursando o ensino médio técnico do Cotemig.<br><br>
 
+  Sou proativo e me dou bem trabalhando em equipe.<br><br>
+
+  Possuo habilidades em algumas linguagens de programação e pretendo aprimorar meus conhecimentos na área.
+
+    </div>
+</div>
+</div>
+</div>
+        </div>
+   <div id="escuro3">
+    <h1>PROJETOS</h1>
+    <div id="fundofalso">
+        <div class="carrossel" id="carrossel">
+            <div class="slides" id="slides">
+                <div class="slide" id="slide1">
+                    <img src="tabelaperiodica.png" alt="">
+                    <p>TABELA PERIÓDICA<br> <br>A “tabela periódica” foi um projeto criado por mim (em html e css), com  <br> o intuito de aprimorar minhas habilidades utilizando a função table<br> no html.</p>
+                    <input class="view" id="view1" type="button" onclick="location.href='https://jotazzo.github.io/tabela-periodica/';"value="View">
+                </div>
+                <div class="slide" id="slide2">
+                    <img src="velocibo.png" alt="">
+                    <p>VELOCIBO-DELIVERY<br> <br>  Design de site para delivery de comidas típicas italianas, desenvolvido <br>no figma.</p>
+                    <input class="view" id="view2" type="button" onclick="location.href='https://www.figma.com/design/ncpvD9TAGlZfg316jLv3dt/Untitled?node-id=0-1&t=LSnOoKQg8XsyQ73o-1';"value="View">
+                </div>
+            </div>
+            <button class="botao botao-esquerda" onclick="anterior()">❮</button>
+            <button class="botao botao-direita" onclick="proximo()">❯</button>
+        </div>
+    </div>
+</div>
         <div id="contatus">
             <form action="">
                 <p>ENTRE EM CONTATO</p>
                 
                 <div>
                     <div>
-                        <input type="text" id="insnome" name="nome" placeholder="Nome:">
+                        <input class="input" type="text" id="insnome" name="nome" placeholder="Nome:">
                     </div>
         
                     <div>
-                        <input id="inputmn" type="text" id="insrmail" name="email" placeholder="Email:">
+                        <input class="input" id="inputmn" type="text" id="insrmail" name="email" placeholder="Email:">
                     </div>
         
                     <div>
@@ -80,8 +129,8 @@
                 </div>
 
         <ul>
-            <li id="enviar"><button>Enviar</button></li>
-            <li><button>Limpar</button></li>
+            <li id="enviar"><button id="enviar2">Enviar</button></li>
+            <li><button id="limpar">Limpar</button></li>
         </ul>
             
             </form>
@@ -91,7 +140,7 @@
 
        
     </main>
-    <footer>
+    <footer id="footer">
 
         <p>João Vitor Padilha</p>
 
@@ -102,5 +151,6 @@
         </ul>
         
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
